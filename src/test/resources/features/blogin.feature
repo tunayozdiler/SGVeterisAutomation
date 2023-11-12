@@ -9,4 +9,4 @@ Feature: Login Function
     And fill in the username as "test@example.com"
     And fill in the password as "password"
     When click on the login button "#login-register > div.lr-container > div.q-layout.login > form > button"
-    
+    Then see the "Your email address and/or password is incorrect" message
