@@ -1,7 +1,9 @@
 Feature: Add to cart functionality
 
 Scenario: Add the laptop to the cart
-Given the selected laptop "ACER Aspire3"
-And I see the new tab open 
+When I select a random product 
+And I add the product to the cart
+Then I click to the cart button and I see the product price is still the same 
+
 
 

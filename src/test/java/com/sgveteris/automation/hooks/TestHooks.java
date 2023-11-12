@@ -13,6 +13,7 @@ public class TestHooks {
     @BeforeAll
     public static void beforeAll() {
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
     @AfterAll

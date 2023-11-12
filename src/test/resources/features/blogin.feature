@@ -4,9 +4,9 @@ Feature: Login Function
   I want to be told the sum of two numbers
 
   Scenario: Unsuccessful login event
-    When open "https://www.trendyol.com/butik/liste/1/kadin"
-    When click to account button "#account-navigation-container > div > div.account-nav-item.user-login-container > div.link.account-user"
+   
+    When click to account button  
     And fill in the username as "test@example.com"
     And fill in the password as "password"
-    When click on the login button "#login-register > div.lr-container > div.q-layout.login > form > button"
-    Then see the "Your email address and/or password is incorrect" message
+    When click on the login button 
+    Then see the "E-posta adresiniz ve/veya şifreniz hatalı." message
