@@ -16,7 +16,7 @@ Make sure you have the following software installed before running the tests:
 After downloading the dependencies in the pom.xml file, the test is executed from the CucumberTestRunner.java class.
 ## Project Structure
 
-[Project structure](src/resources/images/project_structure.jpg "GitHub")
+[Project structure](src/resources/images/project_structure.jpeg "GitHub")
 
 In the project, I have utilized the structure you see below;
 
