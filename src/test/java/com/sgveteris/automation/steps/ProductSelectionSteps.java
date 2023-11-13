@@ -21,6 +21,7 @@ public class ProductSelectionSteps {
 
     @When("I select a random product")
     public void addRandomProduct() throws InterruptedException {
+        Thread.sleep(2000);
         logger.info("A random product is selected among the products listed in the search result.");
         TestHooks.driver.findElement(By.id("container")).click();
         List<WebElement> elements = TestHooks.driver.findElements(By.xpath("//*[@class='prdct-desc-cntnr-name hasRatings']"));

@@ -20,6 +20,7 @@ public class SearchSteps {
         logger.info("The word laptop is searched in the search bar.");
         TestHooks.driver.findElement(By.cssSelector("#sfx-discovery-search-suggestions > div > div > input"))
                 .sendKeys(laptop);
+                
     }
 
 
